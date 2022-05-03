@@ -36,5 +36,14 @@
     "chalk": "^5.0.1",
     "colornames": "^1.1.1",
     "randomcolor": "^0.6.2"
+  },
+  "resolutions": {
+    "@typescript-eslint/eslint-plugin": "5.22.0",
+    "@typescript-eslint/parser": "5.22.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.1.5",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "@typescript-eslint/utils": "5.22.0"
   }
 }
