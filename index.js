@@ -1,5 +1,5 @@
-import chalk from 'chalk'; //colors text in terminal
-import randomColor from 'randomcolor'; //generates random colors & lets us define some values
+import chalk from 'chalk'; // colors text in terminal
+import randomColor from 'randomcolor'; // generates random colors & lets us define some values
 
 const color = randomColor({
   hue: process.argv[2],
@@ -11,13 +11,13 @@ const colorLum = randomColor({
   hue: process.argv[3],
 });
 
-//function to output the desired block. Input is the random generated color:
-const outputString = (color) => {
+// function to output the desired block. Input is the random generated color:
+const outputString = (hex) => {
   return `###############################
 ###############################
 ###############################
 #####                     #####
-#####        ${color}      #####
+#####        ${hex}      #####
 #####                     #####
 ###############################
 ###############################
